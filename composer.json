@@ -1,0 +1,25 @@
+{
+    "name": "muva/contactform",
+    "description": "package for handling form data from frontend to backend",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Muva\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muva\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis Munene"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
